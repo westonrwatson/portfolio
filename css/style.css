@@ -58,7 +58,7 @@
 /* MAIN */
 
 .main {
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
     font-size: 16px;
 }
@@ -78,7 +78,7 @@
 .image-frame {
     width: 380px;
     height: 380px;
-    background-image: url(../images/profile-image.png);
+    background-image: url(../images/Weston.jpeg);
     background-position: center;
     background-size: cover;
     border: 8px solid #FFFFFF;
@@ -131,7 +131,7 @@
 .section-2 {
     margin: 60px 0 0 0;
     padding: 100px 0px 50px 0px;
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto, sans-serif;
 }
 
 .primary-heading {
@@ -228,7 +228,7 @@
 /* SECTION NO 3 */
 
 .section-3 {
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto, sans-serif;
     padding: 50px 0px 50px 0px;
     position: relative;
 }
