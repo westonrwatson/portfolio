@@ -5,21 +5,14 @@
 #navbar {
     font-family: Roboto, sans-serif;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px 20px;
-    transition: all 0.5s ease;
-}
-
-#nav-logo {
-    font-size: 24px;
-    color: #000000;
-    text-transform: uppercase;
-    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 20px;
+    transition: all 0.2s ease;
 }
 
 .sticky {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    padding: 8px 20px !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    padding: 10px 20px !important;
 }
 
 .nav-custom-link {
@@ -29,16 +22,16 @@
 }
 
 .nav-custom-link:hover {
-    color: #FFFFFF !important;
+    color: #ffffff !important;
     background-color: #000000;
 }
 
 .color-white {
-    color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 .nav-btn-icon {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 @media (max-width: 426px) {
@@ -63,10 +56,32 @@
     font-size: 16px;
 }
 
+/* MY LOGO */
+
+.section-0 {
+    background-color: #6e9995;
+    height: 200px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#nav-logo {
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: absolute;
+    top: 15px;
+}
+
 /* SECTION NO 1 */
 
 .section-1 {
-    background-color: #F2F2F2;
+    background-color: #ffffff;
     height: 450px;
     padding: 0px;
 }
@@ -78,7 +93,7 @@
 .image-frame {
     width: 380px;
     height: 380px;
-    background-image: url(./images/Weston.jpg);
+    background-image: url(../images/Weston.jpg);
     background-position: center;
     background-size: cover;
     border: 8px solid #FFFFFF;
