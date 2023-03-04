@@ -59,7 +59,6 @@
 /* MY LOGO */
 
 .section-0 {
-    background-color: #ffffff;
     height: 200px;
     padding: 0px;
 }
@@ -81,26 +80,26 @@
 /* SECTION NO 1 */
 
 .section-1 {
-    padding: 70px 0px 100px 0px;
-    
-
+    padding: 100px 0px 100px 0px;
 }
 
 .section-1-inner {
     color: #000000;
+    display: flex;
+    align-items: center;
     
 }
 
 .section-1-heading {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 1.2;
 }
 
 .section-1-para {
-    font-size: 16px;
-    line-height: 1.8;
-    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
 }
 
 .sec1-image {
@@ -142,6 +141,124 @@
     }
 
     .section-1-para {
+        font-size: 12px;
+    }
+}
+
+/* FOOTER */
+
+.contact-form-div {
+    background-color: #3baebd;
+    font-family: Roboto, sans-serif;
+    padding: 0px 100px 100px 0px;
+}
+
+#custom-input1,
+#custom-input2,
+#custom-input3 {
+    color: #3baebd;
+    letter-spacing: 2px;
+    padding: 12px 15px;
+}
+
+#custom-textarea {
+    color: #3baebd;
+    letter-spacing: 2px;
+    padding: 12px 0px 0px 15px;
+}
+
+#contact-custom-button {
+    background-color: #ffffff;
+    color: #3baebd;
+    padding: 16px 60px;
+}
+
+@media (max-width: 600px) {
+    .contact-heading {
+        font-size: 48px;
+    }
+
+    .contact-para {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .card-row-2 {
+        padding: 20px 15px;
+    }
+
+    .contact-form-div {
+        padding: 20px !important;
+    }
+
+    #contact-custom-button {
+        padding: 8px 30px;
+    }
+
+    .form-button {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .contact-heading {
+        font-size: 32px;
+    }
+
+    .contact-para {
+        font-size: 12px;
+        letter-spacing: 2;
+    }
+
+    .card-row-1,
+    .card-row-2 {
+        padding: 20px 15px;
+    }
+
+    #custom-input1,
+    #custom-input2,
+    #custom-input3 {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    #custom-textarea {
+        font-size: 12px;
+        padding: 8px 0px 0px 12px;
+    }
+
+    #contact-custom-button {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+}
+
+.footer {
+    padding: 50px 50px 30px 50px !important;
+    background-color: #3baebd;
+}
+
+.section-footer-inner {
+    color: #FFFFFF;
+}
+
+.footer-headline {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.footer-text {
+    font-size: 20px;
+}
+
+@media (max-width: 426px) {
+    .footer {
+        padding: 30px 30px 20px 30px !important;
+    }
+
+    .footer-text {
         font-size: 12px;
     }
 }
@@ -1000,93 +1117,6 @@
     background-size: cover;
 }
 
-.contact-form-div {
-    background-color: #F8F9FA;
-    padding: 50px !important;
-    font-family: Roboto, sans-serif;
-}
-
-#custom-input1,
-#custom-input2,
-#custom-input3 {
-    color: #666666;
-    letter-spacing: 2px;
-    padding: 12px 15px;
-}
-
-#custom-textarea {
-    color: #666666;
-    letter-spacing: 2px;
-    padding: 12px 0px 0px 15px;
-}
-
-#contact-custom-button {
-    background-color: #3E64FF;
-    color: #FFFFFF;
-    padding: 16px 60px;
-    border-radius: 50px;
-}
-
-@media (max-width: 600px) {
-    .contact-heading {
-        font-size: 48px;
-    }
-
-    .contact-para {
-        font-size: 14px;
-        margin-top: 6px;
-    }
-
-    .card-row-2 {
-        padding: 20px 15px;
-    }
-
-    .contact-form-div {
-        padding: 20px !important;
-    }
-
-    #contact-custom-button {
-        padding: 8px 30px;
-    }
-
-    .form-button {
-        text-align: center;
-    }
-}
-
-@media (max-width: 426px) {
-    .contact-heading {
-        font-size: 32px;
-    }
-
-    .contact-para {
-        font-size: 12px;
-        letter-spacing: 2;
-    }
-
-    .card-row-1,
-    .card-row-2 {
-        padding: 20px 15px;
-    }
-
-    #custom-input1,
-    #custom-input2,
-    #custom-input3 {
-        font-size: 12px;
-        padding: 8px 12px;
-    }
-
-    #custom-textarea {
-        font-size: 12px;
-        padding: 8px 0px 0px 12px;
-    }
-
-    #contact-custom-button {
-        font-size: 12px;
-        padding: 8px 20px;
-    }
-}
-
 /* SECTION NO 7 */
 
 .section-7 {
@@ -1184,26 +1214,5 @@
     .section-7-inner {
         width: 90%;
         padding-top: 60px;
-    }
-}
-
-/* FOOTER */
-
-.footer {
-    padding: 50px 50px 30px 50px !important;
-    background-color: #000000;
-}
-
-.section-footer-inner {
-    color: #FFFFFF;
-}
-
-@media (max-width: 426px) {
-    .footer {
-        padding: 30px 30px 20px 30px !important;
-    }
-
-    .footer-text {
-        font-size: 12px;
     }
 }
