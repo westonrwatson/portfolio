@@ -32,7 +32,7 @@
 /* SECTION NO 1 */
 
 .section-1 {
-    padding: 100px 0px 190px 0px;
+    padding: 120px 0px 190px 0px;
 }
 
 .section-1-inner {
@@ -45,13 +45,14 @@
 .section-1-heading {
     font-size: 40px;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
 .section-1-para {
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.3;
     margin-top: 20px;
+    font-weight: lighter;
 }
 
 .sec1-image {
@@ -61,7 +62,7 @@
 }
 
 .sec1-image:hover {
-    transform: scale(1.02);
+    /*transform: scale(1.02);*/
 }
 
 @media (max-width: 426px) {
